@@ -20,7 +20,7 @@ export async function extractStreamUrl(episode: Episode): Promise<StreamingEpiso
 		const source = data.sources?.[0];
 		if (!source) throw new Error("No sources found");
 
-		const streamUrl = source.proxy || source.url;
+		const streamUrl = source.url;
 
 		const subtitles: Subtitles[] = (data.subtitles || []).map((sub: any) => ({
 			url: sub.url,
