@@ -1,0 +1,15 @@
+{
+    "name": "crysoline",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "build": "zantaku-modules build"
+    },
+    "dependencies": {
+        "linkedom": "^0.18.12"
+    },
+    "devDependencies": {
+        "typescript": "^5.0.0"
+    },
+    "types": "dist/index.d.ts"
+}

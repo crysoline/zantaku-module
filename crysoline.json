@@ -1,0 +1,20 @@
+{
+    "sourceName": "crysoline",
+    "iconUrl": "https://crysoline.moe/favicon.ico",
+    "author": {
+        "name": "Crysoline Team",
+        "icon": "https://crysoline.moe/favicon.ico",
+        "url": "https://crysoline.moe"
+    },
+    "version": "1.0.0",
+    "language": "TypeScript",
+    "baseUrl": "https://api.crysoline.moe",
+    "searchBaseUrl": "https://api.crysoline.moe/api/v1/anime/anizone/search?q=%s",
+    "scriptUrl": "https://fs.kizuren.dev/crysoline/crysoline.js",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "type": "video",
+    "downloadSupport": false,
+    "softsub": true,
+    "combo": true
+}
